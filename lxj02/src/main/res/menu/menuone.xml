@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/gouwu"
+    android:title="购物"
+    android:orderInCategory="100">
+</item>
+    <item android:id="@+id/meishi"
+        android:title="美食"
+        android:orderInCategory="100">
+
+    </item>
+    <item android:id="@+id/yule"
+        android:title="娱乐"
+        android:orderInCategory="100">
+    </item>
+    <item
+        android:id="@+id/life"
+        android:title="生活"
+        android:orderInCategory="100">
+    </item>
+    <item android:id="@+id/shuma"
+        android:title="数码"
+        android:orderInCategory="100">
+
+    </item>
+    <item android:id="@+id/huzhuang"
+        android:title="服装"
+        android:orderInCategory="100">
+    </item>
+    <item
+        android:id="@+id/xiebao"
+        android:title="鞋包"
+        android:orderInCategory="100">
+    </item>
+    <item android:id="@+id/all"
+        android:title="全部"
+        android:orderInCategory="100">
+    </item>
+</menu>

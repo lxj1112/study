@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hzyc.lxj.lxj05.Main3Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/lianxiren"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_below="@+id/imageView2"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text=""
+           android:id="@+id/name11"
+           android:textSize="30dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+
+       <TextView
+           android:layout_width="200dp"
+           android:layout_height="100dp"
+           android:text=""
+           android:id="@+id/phone11"
+           android:layout_marginTop="25dp"
+           android:textSize="30dp"
+           android:layout_alignTop="@+id/dadianhua"
+           android:layout_toRightOf="@+id/dadianhua"
+           android:layout_toEndOf="@+id/dadianhua" />
+
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:id="@+id/dadianhua"
+           android:src="@drawable/dadianhua"
+           android:layout_below="@+id/name11"
+           android:layout_marginLeft="20dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+   </RelativeLayout>
+</RelativeLayout>

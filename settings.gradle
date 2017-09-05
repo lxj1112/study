@@ -1,0 +1,1 @@
+include ':app', ':lxj01', ':lxj02', ':lxj03', ':lxj04', ':lxj05', ':demo_07'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/save"
+          android:title="保存"
+          android:orderInCategory="100">
+
+    </item>
+    <item android:id="@+id/update"
+        android:title="更新"
+        android:orderInCategory="100">
+
+    </item>
+    <item android:id="@+id/delete"
+        android:title="删除"
+        android:orderInCategory="100">
+    </item>
+</menu>
